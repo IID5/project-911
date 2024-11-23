@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج تسجيل</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' type='text/css' media="screen" href='css/registration.css' >
+</head>
+<body>
+    
+
+<div class="container" style="text-align: right;">
+    <h2>نموذج تسجيل</h2>
+    
+    <form>
+        <h3>1. البيانات الشخصية</h3>
+        <label for="fullName">الاسم الكامل:</label>
+        <input type="text" id="fullName" name="fullName" pattern="[ء-يA-Za-z ]+" title="يرجى إدخال أحرف عربية أو إنجليزية فقط" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">رقم الهاتف:</label>
+        <input type="tel" id="phone" name="phone"  pattern="[0-9]+" title="يرجى إدخال أرقام فقط" required>
+        
+        <h3>2. العنوان</h3>
+       
+
+        <label for="city">المدينة:</label>
+        <input type="text" id="city" name="city" required>
+
+
+        <h3>3. المنتج</h3>
+        <label for="productName">اسم المنتج:</label>
+        <input type="text" id="productName" name="productName" required>
+
+        <label for="quantity">الكمية:</label>
+        <input type="text" id="quantity" name="quantity" pattern="[0-9]+" title="يرجى إدخال أرقام فقط" required>
+
+        <h3>4. طريقة الدفع</h3>
+        <label><input type="radio" name="payment" value="creditCard" required> بطاقة ائتمان</label>
+        <label><input type="radio" name="payment" value="paypal"> ابل باي</label>
+        <label><input type="radio" name="payment" value="bankTransfer"> تحويل مصرفي</label>
+
+        <label><input type="checkbox" required> أوافق على الشروط والأحكام</label>
+        
+        <button type="submit">تأكيد التسجيل</button>
+    </form>
+    
+    
+    
+
+<div class="link">
+    <button onclick="window.location.href='index.html'">لزيارة الصفحة الرئيسية</button>
+    
+</div>
+
+
+</div>
+
+</body>
+</html>

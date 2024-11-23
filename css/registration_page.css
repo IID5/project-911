@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Changa", sans-serif;
+    background: linear-gradient(135deg, rgb(104, 104, 102), rgba(255, 255, 255, 0.8));
+    margin: 0;
+    padding: 40px;
+    direction: rtl; 
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 650px;
+    height: 430px;
+    overflow: auto;
+    margin: auto;
+    font-size: 13px ;
+}
+
+h2 {
+    text-align: center;
+    color: #2e3135;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+    text-align: right; 
+}
+#confirmationMessage {
+    color: rgb(11, 123, 11);        
+    font-size: 18px;     
+    font-weight: bold;   
+    text-align: center;  
+  
+    padding: 10px;       
+    border-radius: 5px;  
+    margin-top: 20px;  
+    margin-right: 10px;
+  
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+}
+
+button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+    font-family: "Cairo", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 25% ;
+
+   
+}
+
+button:hover {
+    background-color: #495057;
+    transform: translateY(-2px);
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.link button {
+    background-color: rgba(97, 87, 75, 0.674);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 2px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 50%;
+   
+}
+
+.link button:hover {
+    background-color: #495057;
+    transform: translateY(-2px);
+}
+
+.link button:active {
+    transform: translateY(0);
+}

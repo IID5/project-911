@@ -1,0 +1,238 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: linear-gradient(135deg, rgba(101, 97, 91, 0.562), rgba(255, 255, 255, 0.8));
+    width: 100%; 
+    height: 1100px ; 
+    margin: 0 auto; 
+    
+}
+header{
+    width: 1300px;
+    height: 100px;
+    background-color: rgb(78, 77, 74);
+    box-shadow: 0px 0px 5px rgba(37, 36, 36, 0.32);
+    border-radius: 3px ;
+   position: fixed;
+   z-index: 1;
+
+}
+
+
+
+
+header img {
+
+    width: 90px ;
+    float: left;
+    margin-top: 7px;
+    margin-left: 50px;
+    
+    
+}
+
+header button {
+
+    width: 120px;
+    background: rgba(55, 54, 43, 0.879);
+    color: rgb(250, 240, 221);
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0px 0px 8px rgba(23, 23, 16, 0.358);
+    font-family: "Mada", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: 1s;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+  
+
+}
+header button:hover {
+
+    color: #ffffffcc ;
+    box-shadow: 0px 0px 15px  #ffffffcc;
+
+
+}
+#imol{
+    
+    width: 100%;
+    height: 600px;
+    margin-top: none;
+    margin-bottom: none;
+    
+}
+
+
+footer {
+
+    width: 100;
+    height: 165px;
+    background-color:rgb(78, 77, 74);
+    box-shadow: 0px 0px 15px black ;
+    line-height: black ;
+    border-radius: 3px ;
+    margin-top: 110px;
+   
+}
+
+footer div{
+
+    font-family: "Changa", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+   text-align:center;
+   line-height: 1cm;
+
+   color: rgb(0, 0, 0);
+   
+    clear: both;   
+}
+footer div p {
+    font-family: "Changa", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+   text-align:center;
+   font-size: 10px;
+   
+}
+footer div a {
+
+    text-decoration: none;
+    color: rgba(232, 232, 232, 0.911);
+   
+}
+marquee{
+    position: absolute;
+    top: 105px ; 
+    left : 550px ;
+    color: rgb(14, 15, 15);
+    outline: none;
+    font-size: 20px;
+    right: 500px;
+    font-family: "Cairo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+   text-align: center;
+   border-radius: 5px ;
+}
+
+
+footer div a:hover {
+
+    color:  #adadadac;
+    transition: 0.5s;
+    
+}
+
+header div p {
+    width: 200px ;
+   color: rgb(189, 177, 119);
+   text-shadow: 0px 0px 10px black ;
+    margin-top: 30px ;
+    font-family: "Cinzel", serif;
+    font-weight: normal;
+    font-style: bold;
+   text-align:center;
+   font-size: 30px;
+   margin-left: 60px;
+}
+main div img {
+
+    
+  
+    margin-top: 220px;
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px ;
+    margin-right: 125px;
+    box-shadow: 0px 0px 10px rgb(152, 151, 151) ;
+}
+main div h2{
+font-size: 60px;
+font-family: "Kufam", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+   text-align: center;
+   color:rgb(78, 77, 74);
+   text-shadow: 0px 0px 10px rgb(127, 126, 126);
+   margin-top: none;
+   margin-bottom: 30px;
+}
+main div p{
+    
+font-size: 20px;
+font-family: "Cairo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+   text-align: center;
+   
+   
+}
+.gallery {
+    display: flex;
+    gap: 50px;
+    width: 300px;
+    height: 150px;
+    margin-top: 7cm;
+    margin-left: 400px;
+}
+
+.thumbnail {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(2.05); 
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564); 
+    
+    font-size: 10px;
+    font-family: "Cairo", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+       text-align: center; 
+}
+
+.modal-content {
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    background-color: rgb(197, 195, 195);
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
